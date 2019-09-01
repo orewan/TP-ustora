@@ -1,0 +1,582 @@
+/** Sur un ecran plus de 1050 px le de design est fait **/
+/** Pour le responsvie, ca fonctionne theoriauement de 0 a 600px.
+Le design est mieux fait pour 500 px. 
+Je n'ai pas eu le temps de finir le responsive.
+ */
+/*** Votre CSS ***/
+body{
+    margin:0;
+    }
+/************ Classe generale **************/
+/** barre head **/
+/** text color **/
+.center{
+  
+   margin-left:auto;
+   margin-right: auto;
+   max-width: 100%;
+  
+}
+
+.textcolorgris{
+    -webkit-text-fill-color: #888888;
+    -webkit-text-stroke-color: #888888;
+    font-weight: bold;
+}
+
+/** Logo user**/
+.logouser{
+    margin-left: 25px;
+    margin-right:-10px;
+}
+
+/** Liste deroulante language **/
+.languagecorlor{
+    border:0px;
+    background-color: #f4f4f4;
+}
+
+
+    /*************** TOP BAR CSS *********************/
+#topbar{
+    margin:0;
+    background-color: #f4f4f4;
+    height:50px;
+    
+}
+
+#menulogogauche
+{
+    float: left;
+    margin-left: 265px;
+    
+}
+
+#menulogogauche span
+{
+    margin-left: 15px;  
+}
+                /** Language Selected **/
+#menulogodroite
+{
+    float: right;
+    margin-right: 310px;
+    margin-top: 16px;
+}
+
+
+
+    /*************** FIN TOP BAR CSS ****************************/
+
+
+
+/**********  LOGO SECONDE LIGNE + CART  *************************/
+#containerlogocart{
+    height: 100px;
+    clear: both;
+}
+
+#logowebschool{
+    float: left;
+    margin-left:285px;
+}
+
+
+#cart{
+    
+    
+    border: 2px #DDD solid;
+    text-align: center;
+    float: right;
+    margin-top: 20px;
+    color: #636363;;
+    
+    
+    margin-right:290px;
+    
+    padding: 20px;
+    display: inline;
+
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+#dollar{
+        
+        text-align: center;
+         font-weight: bold;
+         color:#5887CB;
+               
+}
+    
+
+#cart span:last-of-type{
+    
+
+    
+    text-align: center;
+    font-weight: bold;
+    
+    width:20px;
+    height:20px;
+    
+    
+    position: relative;
+    top: -30px;
+    left: 54px;
+
+    color:white;
+    background-color:#5887CB;
+    border-radius:100%;
+    padding: 1px 7px 2px 5px;
+    
+
+}
+/** Classe logo Caddie fa-shopping-cart **/
+.fa-shopping-cart{
+    float:right;
+}
+
+
+/**********  FIN LOGO SECONDE LIGNE + CART **********************/
+
+
+/**********  Barre de Menu (Navigation)  **********************/
+#barredenavigation{
+    background-color: #f4f4f4;
+    height: 50px;
+    width: 100%;
+    
+}
+
+
+#barredenavigation li:hover{
+    
+    background-color: #5A87CA;
+    padding: 12px 20px 20px 20px;
+      
+}
+
+
+.menu-navigation li{
+    display: inline;
+    position: relative;
+    left:250px;
+    margin-left: 25px;
+    top:12.5px; 
+   
+}
+
+.textcolorgris li:hover{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-color:white;
+    font-weight: bold;
+    
+}
+
+
+/***************** BODY ******************/
+#container-iphone6{
+   height: 382px;
+   width: 995px; 
+ }
+
+ #container-backgroundgrey{
+     width: 100%;
+     height: 300px;
+     line-height: 275px;
+     background-color: #f4f4f4;
+
+ }
+
+ .text-container-4boxes{
+     color: white;
+     font-weight: bold;
+     text-align: center;
+    font-size: 30px;
+ }
+
+ .fa-sync-alt::before {
+    content: "\f2f1";
+    font-size: 40px;
+}
+.fa-truck::before {
+    content: "\f0d1";
+    font-size: 40px;
+}
+.fa-lock::before{
+    content: "\f023";
+    font-size: 40px;
+}
+.fa-gift::before{
+    content: "\f06b";
+    font-size: 40px;
+}
+
+.container-4boxes{
+   /* display: inline;*/
+    float: left;
+    width: 262px;
+    height: 150px;
+    line-height: 200px;
+    background-color: #75B2DE;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: -8%;
+    vertical-align: middle;
+    
+ }
+
+
+
+.middle{
+
+text-align: center;
+vertical-align: middle;
+}
+
+#truck{
+    background-color: #FEDA00;
+}
+
+#lock{
+    background-color: #FB8071;
+}
+
+#newproducts{
+    background-color: #4ABEBD;
+}
+
+/******** Latest Product ********/
+#latest-product{
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/********** Button Prev Next******************/
+
+#container-prevnext{
+    height: 25px;
+    margin-right:230px;
+}
+
+#prev-next{
+    
+    float: right;
+    
+}
+
+#prev span{
+    float:left;
+    
+    font-weight: bold;
+    margin-left: 10px;
+   
+    width: 50px;
+    height: 20px;
+    background-color: #FB8071;
+
+    text-align: center;
+    color: white;
+}
+
+#photo-gallery{
+    height:350px;
+    width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-gallery{
+    float: left;
+    width: 12%;
+}
+
+
+
+#iphone6{
+    border:1px solid #D4D4D4;
+}
+
+
+
+/******** En dessous de la galerie *************/
+#block-barreggrise{
+    height:20px;
+}
+
+#barreggrise{
+    height: 2px;
+    width:100%;
+    background-color: #D4D4D4;
+
+}
+
+.blue{
+    color: #5E88CC;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.textbarre{
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+/********* Logo marques ************/
+#logo-marques{
+    height: 150px;
+    width: 1250px;
+margin-left: auto;
+margin-right: auto;
+   
+}
+
+.logomarques{
+    margin-left: auto;
+    margin-right: auto;
+    width: 270px;
+    height: 120px;
+}
+
+
+/** Footer **/
+
+#backgroundfooter{
+    display: flex;
+    justify-content: center;
+  
+    background-color: #333333;
+    height:420px;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div1,.div2,.div3,.div4{
+
+width: 290px;
+
+}
+
+.textgris2{
+    color:#969A9B;
+    margin-right: 15%;
+}
+/* uStora */
+#u{
+    color: #969A9B;
+}
+
+#stora{
+    color: #5A87CA;
+}
+
+.petitlogo{
+
+   color:#5A87CA;
+   font-size: 45px;
+
+}
+/**User navigation and Categories **/
+
+.underdotted{
+    display: block;
+    border-bottom: dashed #969A9B;
+    padding-bottom: 3%;
+    padding-top:3%;
+}
+
+/** Newsletter **/
+
+.newsletter{
+    width:100%;
+    margin-top: 5%;
+    height: 40px;
+}
+
+.btnsubribe{
+    color: white;
+    background-color: #5A87CA;
+    border:none;
+    width: 145px;
+    height: 40px;
+    margin-top: 5%;
+
+    font-weight: bold;
+
+}
+
+/** footer footer  Bas du site **/ 
+#footerfooter{
+    
+    background-color: black;
+    height: 80px;
+}
+.copyright{
+    margin-left: 175px;
+   
+}
+.uCommerce{
+     color: white;
+     padding-top:10px;
+}
+
+.blue2{
+  color:blue;
+  
+}
+
+
+.logoCC{
+    color:#fff;
+    font-size: 30px;
+    float: right;
+    margin-right: 100px;
+    margin-top: -20px;
+}
+
+
+/** Responsive **/ 
+/*
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    /*
+    [class*] {
+      width: 100%;
+    }
+  }
+*/
+
+@media only screen and (max-width: 600px) {
+    * {
+        max-width: 600px;
+        margin: 0 auto; 
+      
+    }
+
+    
+     /** Logo user**/
+    #topbar{
+        margin:0;
+        background-color: #f4f4f4;
+        height:80px;    
+    }
+     
+#menulogogauche{
+    margin:0px;
+    
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#menulogogauche span {
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+/*
+#logoUser2,#logoUser3,#logoUser4{
+    display: none;
+}
+*/
+
+.fa, .fas {
+
+    font-weight: 900;
+    float: left;
+    margin: none;
+    display: flex;
+    flex-direction: column;
+}
+
+/**/
+#menulogodroite {
+    float: right;
+    margin-right: 50px;
+    margin-top:10px;
+}
+
+#logowebschool {
+    float: left;
+    margin-left: 20px;
+}
+
+#cart {
+    border: 2px #DDD solid;
+    float: left;
+    /* text-align: center;
+    
+    margin-top: 0px;
+    color: #636363;
+    margin-right: 0px;
+    padding: 20px;
+    display: inline;
+    font-size: 20px;
+    font-weight: bold; */
+}
+
+#cart span:last-of-type {
+    text-align: center;
+    font-weight: bold;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: -33px;
+    left: 33px;
+    color: white;
+    background-color: #5887CB;
+    border-radius: 100%;
+    padding: 1px 7px 2px 5px;
+}
+
+
+#barredenavigation {
+
+    background-color: #f4f4f4;
+    height: 125px;
+    width: 100%;
+    float: left;
+
+}
+#barredenavigation li:hover{
+    background-color: #5A87CA;
+    padding: 12px 20px 20px 20px;
+    width: 100%;
+}
+
+.menu-navigation li {
+    display: flex;
+    position: relative;
+    left: 0px;
+    margin-left: 0px;
+    top: 10px;
+    
+}
+
+
+
+
+#container-iphone6 {
+    max-width: 100%;
+    height: auto;
+  }
+
+  
+
+/** footer footer responsive **/
+.logoCC{
+        color:#fff;
+        font-size: 20px;
+        float: none;
+        margin-right: 0px;
+        margin-top: 0px; 
+    }
+.copyright{
+        margin: auto;
+    }
+  }
